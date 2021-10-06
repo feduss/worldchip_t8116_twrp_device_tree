@@ -31,7 +31,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=enforcing buildvariant=user
+BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=permissive buildvariant=user
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage-dtb
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
